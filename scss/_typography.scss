@@ -1,0 +1,18 @@
+@use 'vars' as *;
+
+body {
+    color: $primary-color;
+}
+
+
+//this is why * is better, less complicated
+// @use 'vars' as myColor;
+
+// body {
+//     color: myColor.$primary-color;
+// }
+
+
+a {
+    
+}

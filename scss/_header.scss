@@ -1,0 +1,14 @@
+@use 'vars' as *;
+@use 'nav';
+
+header {
+    div.logo {
+        height: 2rem;
+        width: 2rem;
+        background-color: $logo-color;
+    }
+    @media (min-width: 37.5em) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
